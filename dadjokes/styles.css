@@ -1,0 +1,16 @@
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.container .btn {
+  width: 40%;
+  border: transparent;
+  background: brown;
+  color: white;
+  transition: 0.3s;
+}
+.container .btn:hover {
+  background: green;
+  box-shadow: var(--shadow-3);
+}/*# sourceMappingURL=styles.css.map */
